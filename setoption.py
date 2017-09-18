@@ -1,18 +1,14 @@
 '''
 Created on Sep 18, 2017
 
-@author: klondaik
+@author: reef425
 '''
 
 import time
 import json
 filename = "option.ini"
 
-
-tmpKey=[]
-tmpValue=[]
-
-    
+  
 
 
 def readFile(filename):
@@ -33,4 +29,3 @@ def readFile(filename):
 
 if __name__ == '__main__':
     readFile(filename)
-    
